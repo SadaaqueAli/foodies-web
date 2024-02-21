@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ================navbar===============*/
+.navigation-wrap{
+position: fixed;
+width:100%;
+left: 0;
+z-index: 1000;
+-webkit-transition: all0.3s ease-out;
+transition: all0.3s ease-out;
+}
+.navigation-wrap .nav-item{
+    padding: 0 0.625rem;
+    transition: all 200ms linear;
+}
+.navbar-toggler:focus{
+outline:unset;
+border: unset;
+box-shadow: none;
+}
+
+.nav-link{
+    font-size:0.9765;
+    font-weight: 600;
+    text-transform: capitalize;
+    color: brown;
+    letter-spacing: 1px;
+}
+.navigation-wrap.scroll-on{
+position: fixed;
+top: 0;
+left: 0;
+background: white;
+box-shadow: 0 01.25rem 1.75rem rgba(0,0,0,0.9);
+transition: all .15s ease-in-out 0s;
+}
+/*benar 1=========================bg one ===*/
+.top-benar{
+    width: 100%;
+    background-image: url("/images/bg/bg-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 16.875rem 0 9.375rem;
+}
+.main-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: brown;
+    border: 0.1875 solid brown;
+    color:white;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgba(0 0 0/19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
+.white-btn{
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    line-height: 1.5625rem;
+    background-color: white;
+    border: 0.1875 solid white;
+    color:black;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    box-shadow: 0px 2px 10px -1px rgba(0 0 0/19%);
+    -webkit-transition: all .4s ease-out 0s;
+    -o-transition: all .4s ease-out 0s;
+    -moz-transition: all .4s ease-out 0s;
+    transition: all .4s ease-out 0s;
+}
