@@ -37,7 +37,7 @@ background: white;
 box-shadow: 0 01.25rem 1.75rem rgba(0,0,0,0.9);
 transition: all .15s ease-in-out 0s;
 }
-/*benar 1=========================bg one ===*/
+/*benar 1==============buttons===========bg one ===*/
 .top-benar{
     width: 100%;
     background-image: url("/images/bg/bg-1.jpg");
@@ -77,4 +77,13 @@ transition: all .15s ease-in-out 0s;
     -o-transition: all .4s ease-out 0s;
     -moz-transition: all .4s ease-out 0s;
     transition: all .4s ease-out 0s;
+}
+/*benar 2=========================bg two ===*/
+.counter-section{
+    background-color: brown;
+    padding: 2.5rem 0;
+}
+.counter-section p{
+    color: white;
+    text-transform: uppercase;
 }
