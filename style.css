@@ -5,7 +5,9 @@
 }
 /* ================navbar===============*/
 .navigation-wrap{
+background-color: white;
 position: fixed;
+height: 100px;
 width:100%;
 left: 0;
 z-index: 1000;
@@ -86,4 +88,16 @@ transition: all .15s ease-in-out 0s;
 .counter-section p{
     color: white;
     text-transform: uppercase;
+}
+/*benar 2=========================bg two ===*/
+.About-section{
+    background-color: white;
+    margin: 60px;
+}
+.About-section.card{
+    border-radius: 0.625rempx;
+}
+.text-sec{
+margin-top:10%;
+font-weight: 500;
 }
