@@ -89,15 +89,75 @@ transition: all .15s ease-in-out 0s;
     color: white;
     text-transform: uppercase;
 }
-/*benar 2=========================bg two ===*/
+/*benar 2==============about===========sec 3  ===*/
 .About-section{
     background-color: white;
     margin: 60px;
 }
-.About-section.card{
+.About-section .card{
     border-radius: 0.625rempx;
 }
 .text-sec{
 margin-top:10%;
 font-weight: 500;
+}
+
+/*benar 2================4=========sec 3  ===*/
+.food-type{
+padding-top:6.25rem;
+}
+.food-type ul li{
+list-style-type: none;
+font-size: 1rem;
+color: grey;
+line-height: 32px;
+position: relative;
+margin-left: 30px;
+
+}
+#story-section{
+width: 100%;
+height: 28.125rem;
+background-image: url("./images/bg/bg-2.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding-top: 100px;
+text-align: center;
+}
+#story-section h2{
+    font-size: 45px;
+    color: brown;
+}
+#story-section p{
+font-size: 30px;
+}
+/* explore food sec 4 */
+.text-content h2{
+color: brown;
+}
+.text-content p{
+    font-size: 20px;
+    font-weight: 300;
+}
+.Explore-food .card{
+    border: none;
+    background-color: transparent;
+    border-radius: 0.9375rem;
+}
+.Explore-food .card img{
+    border-radius: 0.9375rem;
+    object-fit: cover;
+}
+.Explore-food .card span{
+    display: block;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:brown;
+    padding: 1rem;
+    border-bottom: 0.0625rem solid #c2b9b9;
+}
+.Explore-food .card span del{
+    color:grey;
+    margin-left: 0.5rem;
 }
